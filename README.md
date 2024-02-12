@@ -1,3 +1,5 @@
+## Testing with Pytest 
+
 As a software engineer who has worked with **test-driven development (TDD)**, TDD is the best practice for ensuring code reliability, maintainability, and scalability. By writing tests before writing code, TDD encourages a clear understanding of the desired functionality and promotes modular, well-structured code design. However, there have been some situations where I developed a piece of code first, and then I designed the test cases for the code to make sure that the code never breaks in subsequent changes or updates. While this approach deviates from the strict TDD methodology of writing tests before code, it still prioritizes the importance of comprehensive test coverage to maintain the integrity of the codebase. Hence, let me discuss how I approach testing the code that I developed in most situations. 
 
 In such cases (as in the one provided for this assessment), I typically begin by thoroughly understanding the requirements and expected behavior of the code. 
@@ -66,3 +68,7 @@ Now that I have understood the code, developed the test suite for each of these 
 - Writing comprehensive unit tests for complex functions or modules can be time-consuming, leading to potential gaps in test coverage.
 - Maintaining a large number of unit tests can become challenging over time, especially when dealing with evolving codebases.
 - In the specific case of this codebase, these challenges can be mitigated by following best practices such as writing clear, concise tests, using mocking to isolate dependencies, and regularly refactoring tests to keep them maintainable.
+
+That concludes the discussion on how I would approach the testing of this codebase, write the test suite and test it, and ensure that it has a high code coverage. I have written tests for the same under the **tests folder** of this repo, feel free to look how I code the test cases discussed here. 
+
+Thank you for reading! 
